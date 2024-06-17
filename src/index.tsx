@@ -58,6 +58,7 @@ export {
   useFocusedTab,
   useAnimatedTabIndex,
   useCollapsibleStyle,
+  useTabsContext
 } from './hooks'
 export type { HeaderMeasurements } from './hooks'
 

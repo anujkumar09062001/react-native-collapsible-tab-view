@@ -470,7 +470,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     zIndex: 100,
     width: '100%',
-    backgroundColor: 'white',
+    backgroundColor: 'transparent',
     shadowColor: '#000000',
     shadowOffset: {
       width: 0,
@@ -481,6 +481,7 @@ const styles = StyleSheet.create({
     elevation: 4,
   },
   tabBarContainer: {
+    backgroundColor: 'white',
     zIndex: 1,
   },
   headerContainer: {
